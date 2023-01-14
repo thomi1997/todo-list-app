@@ -1,0 +1,25 @@
+app-todo-list {
+    height: 100vh;
+}
+
+.all-todos-div {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-y: auto;
+}
+
+.all-todos {
+    padding-top: 100px;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example-card {
+    max-width: 400px;
+    min-height: 160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+  }

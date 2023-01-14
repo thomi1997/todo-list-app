@@ -1,0 +1,25 @@
+
+
+.all-inputs {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  right: 400px;
+  left: 400px;
+}
+
+mat-form-field {
+  margin-right: 12px;
+  width: 500px;
+}
+
+.example-form-field {
+  width: 570px;
+}
+
+.date-picker {
+  display: flex;
+}

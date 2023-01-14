@@ -1,0 +1,14 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <button (click)="navAddTodo()" mat-raised-button>
+            Add Todo
+        </button>
+        <button (click)="navTodoList()" mat-raised-button>
+            Todo List
+        </button>
+    </mat-drawer>
+</mat-drawer-container>
+
+<button class="button-toogle" type="button" mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+</button>
